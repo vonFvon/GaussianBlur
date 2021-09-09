@@ -30,11 +30,11 @@ And you can read more via the below linkage.
 
 - Original Picture
 
-< Please check rgb.png. >
+< Please check rgb.bmp. >
 
 - Processed Picture by C
 
-< Please check test.png. >
+< Please check test.bmp. >
 
 It is found that there exists obscure, but not significantly.
 
@@ -62,4 +62,4 @@ cv2.destroyAllWindows()
 
 - Processed Picture by Python
 
-< The result is the same as test.png. >
+< The result is the same as test.bmp. >
