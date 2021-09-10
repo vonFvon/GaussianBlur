@@ -28,7 +28,7 @@ And you can read more via the below linkage.
 
 ### How to Run in Ubuntu
 
-1. In debug mode, please run the following command and get a.out. You can print results from intermediate process.
+1. In debug mode, please run the following command and get a.out. You can print results from intermediate process after execute a.out.
 > gcc -DDEBUG codingFileName.c
 - When 'error: undefined reference to ceil or floor or pow' shows, please run the below command.
 > gcc -DDEBUG codingFileName.c -lm
@@ -36,9 +36,9 @@ And you can read more via the below linkage.
 2. In production environment, please run the following command and get a.out.
 > gcc codingFileName.c
 - When 'error: undefined reference to ceil or floor or pow' shows, please run the below command.
-> gcc codingFileName.c
+> gcc codingFileName.c -lm
 
-3. After getting a.out, you can make gaussian blur.
+3. After getting a.out, you can make gaussian blur operation.
 > a.out souceImageFileName.bmp destinationImageFileName.bmp
 
 ### Results Display
