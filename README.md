@@ -26,6 +26,21 @@ And you can read more via the below linkage.
 
 [BMP file format]: https://en.wikipedia.org/wiki/BMP_file_format
 
+### How to Run in Ubuntu
+
+1. In debug mode, please run the following command and get a.out. You can print results from intermediate process.
+>>> gcc -DDEBUG codingFileName.c
+When 'error: undefined reference to ceil or floor or pow' shows, please run the below command.
+>>> gcc -DDEBUG codingFileName.c -lm
+
+2. In production environment, please run the following command and get a.out.
+>>> gcc codingFileName.c
+When 'error: undefined reference to ceil or floor or pow' shows, please run the below command.
+>>> gcc codingFileName.c
+
+3. After getting a.out, you can make gaussian blur.
+>>> a.out souceImageFileName.bmp destinationImageFileName.bmp
+
 ### Results Display
 
 - Original Picture
